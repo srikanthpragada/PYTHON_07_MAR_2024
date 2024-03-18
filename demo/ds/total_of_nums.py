@@ -4,6 +4,7 @@ nums = data.split('-')
 
 total = 0
 for n in nums:
-    total += int(n)
+    if n.isdigit():
+        total += int(n)
 
 print(total)
