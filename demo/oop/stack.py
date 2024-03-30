@@ -8,6 +8,7 @@ class Stack:
     def pop(self):
         return self.data.pop()
 
+    @property
     def length(self):
         return len(self.data)
 
@@ -19,4 +20,4 @@ s = Stack()
 s.push(10)
 s.push(20)
 print(s.pop())
-print(s.length())
+print(s.length)   # property

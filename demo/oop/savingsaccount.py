@@ -10,7 +10,8 @@ class SavingsAccount:
     def withdraw(self, amount):
         self.balance -= amount
 
-    def getbalance(self):
+    @property
+    def currentbalance(self):
         return self.balance
 
     def show(self):
@@ -23,5 +24,5 @@ s1 = SavingsAccount(1, "Ben", 100000)
 s2 = SavingsAccount(2, "Cathy")
 s1.deposit(10000)
 s2.deposit(50000)
-print(s2.getbalance())
+print(s2.currentbalance)
 s1.show()
