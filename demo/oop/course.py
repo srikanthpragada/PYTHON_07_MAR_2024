@@ -23,3 +23,4 @@ print(c1.net_fee())
 print(Course.gettaxrate())
 
 c2 = Course("Java SE", duration=30)
+
