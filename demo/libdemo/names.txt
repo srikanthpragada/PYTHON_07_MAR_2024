@@ -3,3 +3,6 @@ JavaScript
 Python
 C#
 SQL
+C#
+JavaScript
+
